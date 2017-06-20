@@ -1,0 +1,67 @@
+<div class="rbs-card-card-width-config" data-card-height="370px" data-card-width-desktop-dev="300px" data-card-width-tablet-dev="300px" data-column-id="rbsCardWidthConfig" data-column-type="rbsCardWidthConfig" style="width: 300px;height: 370px;border:1px solid #cfcfcf;box-sizing:border-box !important;position:relative;">
+    <table style="width:100%;table-layout:fixed;">
+        <tbody>
+        <tr>
+            <td style="width:100%;height:50px;border-bottom:1px solid #cfcfcf;padding:10px;box-sizing:border-box !important;display:inline-block;overflow:auto;" valign="top">
+                <table style="width:100%;table-layout:fixed;">
+                    <tbody>
+                    <tr>
+                        <td style="width:30px;">
+                            <span class="fa fa-flag card-redflag" style="color:red;font-size:2rem;display:none;"></span>
+                        </td>
+                        <td>
+                            <span class="rbs-dataColumn-value" data-column-id="name" data-column-type="value" onmousedown="event.preventDefault ? event.preventDefault() : event.returnValue = false" title="value - name">Sample Text</span>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:100%;text-align:center;height:105px;padding:10px;box-sizing:border-box !important;display:inline-block;overflow:auto;border-bottom:1px solid #cfcfcf;" valign="top">
+                <div>
+                    <label><i class="fa fa-thermometer-full"></i> Current Temperature: #: data.Current_Temperature#</label> <span class="rbs-dataColumn-value" data-column-id="Current_Temperature" data-column-type="value" onmousedown="event.preventDefault ? event.preventDefault() : event.returnValue = false" style="display:none;" title="value - Current_Temperature">10</span>F&nbsp;</div>
+                <div>
+                    <label>Set Temperature: #: data.Set_Temperature#</label> <span class="rbs-dataColumn-value" data-column-id="Set_Temperature" data-column-type="value" onmousedown="event.preventDefault ? event.preventDefault() : event.returnValue = false" style="display:none;" title="value - Set_Temperature">10</span>F&nbsp;</div>
+                <input class="temperature">
+                <div class="confirmTempChange">
+                    <br>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:100%;height:215px;padding:10px;box-sizing:border-box !important;display:inline-block;overflow:auto;" valign="top">
+
+                <table class="card-chart-table" style="width:100%;table-layout:fixed;">
+                    <tbody>
+                    <tr>
+                        <td class="item">Hum (%)</td>
+                        <td class="chart"><span class="rbs-dataColumn-value" data-column-id="Humidity" data-column-type="value" onmousedown="event.preventDefault ? event.preventDefault() : event.returnValue = false" style="display:none;" title="value - Humidity">65 %</span>
+                            <div class="card-humidity">
+                                <br>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item">CO<sub>2</sub> (ppm)</td>
+                        <td class="chart"><span class="rbs-dataColumn-value" data-column-id="CO2_" data-column-type="value" onmousedown="event.preventDefault ? event.preventDefault() : event.returnValue = false" style="display:none;" title="value - CO2_">2500</span>
+                            <div class="card-co2">
+                                <br>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="item">VOCs(ppm)</td>
+                        <td class="chart"><span class="rbs-dataColumn-value" data-column-id="VOCs_" data-column-type="value" onmousedown="event.preventDefault ? event.preventDefault() : event.returnValue = false" style="display:none;" title="value - VOCs_">0.30</span>
+                            <div class="card-voc">
+                                <br>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
